@@ -1,0 +1,65 @@
+/* Style untuk form registrasi */
+#registrationForm {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px; /* Atur padding agar kotak latar belakang membesar */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style untuk saran mata kuliah */
+#suggestions {
+    margin-top: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+/* Style untuk header */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style untuk tampilan responsif */
+@media (max-width: 500px) {
+    #registrationForm {
+        max-width: 100%;
+    }
+}
